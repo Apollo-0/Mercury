@@ -24,49 +24,114 @@ print()
 print("Now we can get to buisness!")
 time.sleep(2)
 print("Make sure to type in: UPPERCASE")
+time.sleep(1)
 print("*********************************************************")
 time.sleep(2)
 print("Enter you sign here:")
-print()
+
 time.sleep(1)
 starsign = input()
 if starsign == 'ARIES':
-    print("You are born between:")
+    print()
+    print("You are born between: March 21 - April 19")
+    time.sleep(2)
+    print()
+    print("The symbol that represents you is the Ram!")
+    print()
+    time.sleep(4)
+    print("Like their fellow fire signs, Leo and Sagittarius, Aries is a passionate,")
+    time.sleep(4)
+    print("motivated, and confident leader who builds community with their cheerful disposition and")
+    time.sleep(4)
+    print("relentless determination. Uncomplicated and direct in their approach,")
+    time.sleep(4)
+    print("they often get frustrated by exhaustive details and unnecessary nuances.")
+
+
+
+
+elif starsign == 'TAURUS':
+    print("You are born between: April 20 - May 20")
+
+
+
+
 
 elif starsign == 'GEMINI':
     print("Firstly...")
     time.sleep(1)
     print("We're matching!")
     time.sleep(1)
-    print("Secondly, you are born between:")
+    print("Secondly, you are born between: May 21 - June 21")
+
+
+
+
     
 elif starsign == 'CANCER':
-    print("You are born between:")
+    print("You are born between: June 22 - July 22")
+
+
+
+
     
 elif starsign == 'LEO':
-    print("You are born between:")
+    print("You are born between: July 23 - August 22")
+
+
+
+
         
 elif starsign == 'VIRGO':
-    print("You are born between:")
+    print("You are born between: August 23 - September 22")
+
+
+
+
         
 elif starsign == 'LIBRA':
-    print("You are born between:")
+    print("You are born between: September 23 - October 23")
+
+
+
+
         
 elif starsign == 'SCORPIO':
-    print("You are born between:")
+    print("You are born between: October 24 - November 21")
+
+
+
+
         
 elif starsign == 'SAGGITARIUS':
-    print("You are born between:")
+    print("You are born between: November 22 - December 21")
+
+
+
+
         
 elif starsign == 'CAPRICORN':
-    print("You are born between:")
+    print("You are born between: December 22 - January 19")
+
+
+
+
         
 elif starsign == 'AQUARIUS':
-    print("You are born between:")
+    print("You are born between: January 20 - February 18")
+
+
+
+
         
 elif starsign == 'PISCES':
-    print("You are born between:")
+    print("You are born between: February 19 - March 20")
+
+
+
+
 
 else:
     print("It seems youve made an error :(")
     time.sleep(1)
+    print("Try again:")
