@@ -46,92 +46,102 @@ if starsign == 'ARIES':
     print("relentless determination. Uncomplicated and direct in their approach,")
     time.sleep(4)
     print("they often get frustrated by exhaustive details and unnecessary nuances.")
+    breakpoint()
 
 
 
 
-elif starsign == 'TAURUS':
+if starsign == 'TAURUS':
     print("You are born between: April 20 - May 20")
+    breakpoint()
 
 
 
 
 
-elif starsign == 'GEMINI':
+if starsign == 'GEMINI':
     print("Firstly...")
     time.sleep(1)
     print("We're matching!")
     time.sleep(1)
     print("Secondly, you are born between: May 21 - June 21")
+    breakpoint()
 
 
 
 
     
-elif starsign == 'CANCER':
+if starsign == 'CANCER':
     print("You are born between: June 22 - July 22")
+    breakpoint()
 
 
 
 
     
-elif starsign == 'LEO':
+if starsign == 'LEO':
     print("You are born between: July 23 - August 22")
+    breakpoint()
 
 
 
 
         
-elif starsign == 'VIRGO':
+if starsign == 'VIRGO':
     print("You are born between: August 23 - September 22")
+    breakpoint()
 
 
 
 
         
-elif starsign == 'LIBRA':
+if starsign == 'LIBRA':
     print("You are born between: September 23 - October 23")
+    breakpoint()
 
 
 
 
         
-elif starsign == 'SCORPIO':
+if starsign == 'SCORPIO':
     print("You are born between: October 24 - November 21")
+    breakpoint()
 
 
 
 
         
-elif starsign == 'SAGGITARIUS':
+if starsign == 'SAGGITARIUS':
     print("You are born between: November 22 - December 21")
+    breakpoint()
 
 
 
 
         
-elif starsign == 'CAPRICORN':
+if starsign == 'CAPRICORN':
     print("You are born between: December 22 - January 19")
+    breakpoint
 
 
 
 
         
-elif starsign == 'AQUARIUS':
+if starsign == 'AQUARIUS':
     print("You are born between: January 20 - February 18")
+    breakpoint()
 
 
 
 
         
-elif starsign == 'PISCES':
+if starsign == 'PISCES':
     print("You are born between: February 19 - March 20")
+    breakpoint()
 
 
 
 
 
 else:
-    print("It seems youve made an error :(")
-    time.sleep(1)
-    print("Try again:")
+    print("It seems youve made an error :(, try again: ")
