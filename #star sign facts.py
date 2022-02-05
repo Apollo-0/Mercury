@@ -36,7 +36,7 @@ if starsign == 'ARIES':
     print("You are born between: March 21 - April 19")
     time.sleep(3)
     print()
-    print("The symbol that represents you is the Ram!")
+    print("The symbol that represents you is The Ram!")
     print()
     time.sleep(2)
     print ("The planet representing you is Mars!")
@@ -65,8 +65,15 @@ if starsign == 'TAURUS':
     print("You are born between: April 20 - May 20")
     time.sleep(3)
     print()
-    print("The symbol that represents you is the Bull!")
+    print("The symbol that represents you is The Bull!")
     print()
+    time.sleep(2)
+    print("The planet that represents you is Venus!")
+    print()
+    time.sleep(5)
+    print("You group is: EARTH SIGNS")
+    time.sleep(1)
+    print("This includes: TAURUS, VIRGO, CAPRICORN")
     time.sleep(4)
     print("Taurus natives have a strong desire for social and corporate stability.")
     time.sleep(4)
@@ -89,6 +96,18 @@ if starsign == 'GEMINI':
     print("We're matching!")
     time.sleep(1)
     print("Secondly, you are born between: May 21 - June 21")
+    print()
+    time.sleep(3)
+    print("The symbol that represents you is The Twins")
+    print()
+    time.sleep(2)
+    print("The planet that represents you is Mercury!")
+    print()
+    time.sleep(5)
+    print("Your group is: AIR SIGNS")
+    time.slep(1)
+    print("This includes: GEMINI, LIBRA, AQUARIUS")
+
     breakpoint()
 
 
@@ -97,6 +116,18 @@ if starsign == 'GEMINI':
     
 if starsign == 'CANCER':
     print("You are born between: June 22 - July 22")
+    print()
+    time.sleep(3)
+    print("The symbol that represents you is The Crab")
+    print()
+    time.sleep(2)
+    print("The planet that represents you is The Moon!")
+    print()
+    time.sleep(5)
+    print("Your group is: WATER SIGNS")
+    time.slep(1)
+    print("This includes: CANCER, SCORPIO, PISCES")
+    
     breakpoint()
 
 
