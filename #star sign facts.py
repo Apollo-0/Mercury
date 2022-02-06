@@ -46,6 +46,7 @@ if starsign == 'ARIES':
     time.sleep(1)
     print("This includes: ARIES, LEO, SAGGITARIUS")
     print()
+    time.sleep(2)
     print("*************************************************************************************************")
     time.sleep(4)
     print("Like their fellow fire signs, Leo and Sagittarius, Aries is a passionate,")
@@ -74,7 +75,9 @@ if starsign == 'TAURUS':
     print("You group is: EARTH SIGNS")
     time.sleep(1)
     print("This includes: TAURUS, VIRGO, CAPRICORN")
-    time.sleep(4)
+    print()
+    time.sleep(2)
+    print("*************************************************************************************************")
     print("Taurus natives have a strong desire for social and corporate stability.")
     time.sleep(4)
     print("They have a strong desire for extravagance, contentment, and great things,")
@@ -84,6 +87,7 @@ if starsign == 'TAURUS':
     print(" who represents their sign, are prone to anger,")
     time.sleep(4)
     print(" but once enraged, they can be terrifying.")
+    print("*************************************************************************************************")
     breakpoint()
 
 
@@ -107,7 +111,17 @@ if starsign == 'GEMINI':
     print("Your group is: AIR SIGNS")
     time.slep(1)
     print("This includes: GEMINI, LIBRA, AQUARIUS")
-
+    print()
+    time.sleep(2)
+    print("*************************************************************************************************")
+    print("Geminis are flexible, extroverted, and clever, and")
+    time.sleep(4)
+    print("there's never a boring moment while they're around. Their flaws")
+    time.sleep(4)
+    print("include indecisiveness, impulsivity, unreliability, and nosiness, therefore")
+    time.sleep(4)
+    print("don't disclose a Gemini your innermost deepest fears.")
+    print("*************************************************************************************************")
     breakpoint()
 
 
@@ -127,7 +141,19 @@ if starsign == 'CANCER':
     print("Your group is: WATER SIGNS")
     time.slep(1)
     print("This includes: CANCER, SCORPIO, PISCES")
-    
+    print()
+    time.sleep(2)
+    print("*************************************************************************************************")
+    print("Cancer traits include being nurturing, sensitive, compassionate,")
+    time.sleep(4)
+    print("self-protective, security-seeking and offering,")
+    time.sleep(4)
+    print("loving, and displaying a goofy, ingratiating sense of humor. These characteristics reflect")
+    time.sleep(4)
+    print("themes covered by the Fourth House of Home Life,")
+    time.sleep(4)
+    print("which Cancer rules.")
+    print("*************************************************************************************************")
     breakpoint()
 
 
