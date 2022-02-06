@@ -162,6 +162,29 @@ if starsign == 'CANCER':
     
 if starsign == 'LEO':
     print("You are born between: July 23 - August 22")
+    print()
+    time.sleep(3)
+    print("The symbol that represents you is The Lion")
+    print()
+    time.sleep(2)
+    print("The planet that represents The Sun")
+    print()
+    print(5)
+    print("Your group is: FIRE SIGNS")
+    time.sleep(1)
+    print("This includes: LEO, ARIES, SAGGITARIUS")
+    print()
+    time.sleep(2)
+
+    print("")
+    time.sleep(4)
+    print("")
+    time.sleep(4)
+    print("")
+    time.sleep(4)
+    print("")
+    time.sleep(4)
+
     breakpoint()
 
 
