@@ -382,5 +382,9 @@ while True:
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("Bye! We hope to see you soon :]")
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+            print()
+            time.sleep(1)
+            print()
+            print("Find more information about us on our website:") #put link to html webpage here
             time.sleep(1)
             breakpoint()
