@@ -18,9 +18,12 @@ while True:
     d) Drink options
     V) View chosen choices and current cost
     Q) QUIT """)
+    print()
 
     time.sleep(1)
     opt = input("Your option is: ")
+    time.sleep(1)
+    print()
 
     if opt == 'a':
         print("=========================================")
@@ -33,9 +36,10 @@ while True:
             1) Fried rice with egg
             2) Spaghetti Bolognese
             3) Beef Steak
-            4) Chicken Salad
-            """)
+            4) Chicken Salad""")
+            print()
 
+            print()
             time.sleep(1)
             fopt = input("Your Food Option is: ")
 
@@ -50,6 +54,7 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
+
                 break 
 
 
@@ -94,16 +99,20 @@ while True:
         print("=========================================")
         print("You hav chosen: Snack Options")
         print("=========================================")
-
-
+        
+        
+        time.sleep(1)
         while True:
             print("""
             1) Turkey Sandwiches
             2) French Fries
             3) Crossaint
             4) Fruit Salad""")
+            print()
 
             sopt = input("Your Snack Option is: ")
+            time.sleep(1)
+            print()
 
             time.sleep(1)
             if sopt == '1':
@@ -160,14 +169,18 @@ while True:
         print("You hav chosen: Desert Options")
         print("=========================================")
 
+        time.sleep(1)
         while True:
             print("""
             1) Ice Cream
             2) Caramel Cake
             3) Chocolate Brownie
             4) Strawberry Donut""")
+            print()
 
             dopt = input("Your Desert Option is: ")
+            time.sleep(1)
+            print()
 
             time.sleep(1)
             if dopt == '1':
@@ -224,6 +237,7 @@ while True:
         print("You hav chosen: Drink Options")
         print("=========================================")
 
+        time.sleep(1)
         while True:
             print("""
             1) Milkshake
@@ -231,9 +245,13 @@ while True:
             3) Hot Chocolate
             4) Ice Tea
             5) Soda""")
+            print()
 
             bopt = input("Your Drink Option is: ")
-        
+            time.sleep(1)
+            print()
+
+
             #Putting bopt instead of dopt because then we'd have two and it would get mixed up with drink and desert
             #The b in bopt just stands for beverage instead
 
@@ -302,14 +320,14 @@ while True:
 
     if opt == 'V':
         print("You've chosen to view your current items and cost")
+        time.sleep(1)
+        print()
         print("Here are your items:")
         for item in orders:
             print(item)
+        time.sleep(1)
+        print()
         print("Your current cost is: £" ,cost, " ")
-
-
-
-
 
 
 
@@ -322,5 +340,7 @@ while True:
             print("Items you have chosen:")
             for item in orders:
                 print(item)
+            time.sleep(1)
+            print()
             print("Your total amount is: £" ,cost, " ")
             breakpoint()
