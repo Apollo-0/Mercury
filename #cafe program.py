@@ -16,6 +16,7 @@ while True:
     b) Snack Options
     c) Desert Options
     d) Drink options
+    V) View chosen choices and current cost
     Q) QUIT """)
 
     time.sleep(1)
@@ -32,7 +33,7 @@ while True:
             1) Fried rice with egg
             2) Spaghetti Bolognese
             3) Beef Steak
-            4)Chcken Salad
+            4) Chicken Salad
             """)
 
             time.sleep(1)
