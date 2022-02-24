@@ -223,7 +223,7 @@ if starsign == 'LIBRA':
     print("You are born between: September 23 - October 23")
     print()
     tme.sleep(3)
-    print("The symbol that represents you is")
+    print("The symbol that represents you is libra")
     print()
     time.sleep(2)
     print("The planet that represents you is")
