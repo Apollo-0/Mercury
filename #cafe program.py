@@ -27,7 +27,7 @@ while True:
 
     if opt == 'a':
         print("=========================================")
-        print("You hav chosen: Food Options")
+        print("You have chosen: Food Options")
         print("=========================================")
 
         time.sleep(1)
