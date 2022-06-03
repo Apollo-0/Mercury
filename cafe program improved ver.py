@@ -10,20 +10,26 @@ print()
 time.sleep(1)
 
 while True:
-    print("""
-    Please pick an option:
-    a) Food Options
-    b) Snack Options
-    c) Desert Options
-    d) Drink options
-    V) View chosen choices and current cost
-    F) FINISH """)
+    #made individual print statments
+    #put waits inbetween each options
+    print("Please pick an option:")
+    time.sleep(1)
+    print("a) Food Options")
+    time.sleep(1)
+    print("b) Snack Options")
+    time.sleep(1)
+    print("c) Desert Options")
+    time.sleep(1)
+    print("d) Drink options")
+    time.sleep(1)
+    print("V) View chosen choices and current cost")
+    time.sleep(1)
+    print("F) FINISH ")
     print()
 
     time.sleep(1)
     opt = input("Your option is: ")
-    time.sleep(1)
-    print()
+    time.sleep(3)
 
     if opt == 'a':
         print("=========================================")
@@ -32,16 +38,21 @@ while True:
 
         time.sleep(1)
         while True:
-            print("""
-            1) Fried rice with egg
-            2) Spaghetti Bolognese
-            3) Beef Steak
-            4) Chicken Salad
-            B) BACK""")
+            #made individual print statments
+            #put waits inbetween each options
+            print("1) Fried rice with egg")
+            time.sleep(1)
+            print("2) Spaghetti Bolognese")
+            time.sleep(1)
+            print("3) Beef Steak")
+            time.sleep(1)
+            print("4) Chicken Salad")
+            time.sleep(1)
+            print("B) BACK")
             print()
 
             print()
-            time.sleep(1)
+            time.sleep(2)
             fopt = input("Your Food Option is: ")
 
             time.sleep(1)
@@ -55,9 +66,7 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-
-                break 
-
+                #removed the break from the ends so it wouldnt go all the way back to the start menu
 
             if fopt == '2':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -69,7 +78,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
 
             if fopt == '3':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -81,7 +89,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
 
             if fopt == '4':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -93,7 +100,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
 
             if fopt == 'B':
                 print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
@@ -101,6 +107,7 @@ while True:
                 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
                 time.sleep(1)
                 break
+                #kept the break here because it needs to go back
 
 
 
