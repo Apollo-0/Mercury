@@ -130,9 +130,10 @@ while True:
             print("B) BACK")
             print()
 
-            sopt = input("Your Snack Option is: ")
-            time.sleep(1)
             print()
+            time.sleep(2)
+            sopt = input("Your Snack Option is: ")
+            
 
             time.sleep(1)
             if sopt == '1':
@@ -206,9 +207,9 @@ while True:
             print("B) BACK")
             print()
 
-            dopt = input("Your Desert Option is: ")
-            time.sleep(1)
             print()
+            time.sleep(2)
+            dopt = input("Your Desert Option is: ")
 
             time.sleep(1)
             if dopt == '1':
@@ -271,16 +272,21 @@ while True:
         time.sleep(1)
         while True:
             print("1) Milkshake")
+            time.sleep(1)
             print("2) Smoothie")
+            time.sleep(1)
             print("3) Hot Chocolate")
+            time.sleep(1)
             print("4) Ice Tea")
+            time.sleep(1)
             print("5) Soda")
+            time.sleep(1)
             print("B) BACK")
             print()
 
-            bopt = input("Your Drink Option is: ")
-            time.sleep(1)
             print()
+            time.sleep(2)
+            bopt = input("Your Drink Option is: ")
 
             print()
             time.sleep(1)
