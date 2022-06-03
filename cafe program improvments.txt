@@ -1,0 +1,8 @@
+<>the improvments because i cant remember them all
+
+>round up the total
+>make it so you can add multiple things to a list at a tim
+    different items: 1, 3, 2 = items 1 2 and 3
+    same items: 3 *2 = three lots of item 3
+    mixture: 1 *2, 2, 5, 4 *2 = 2 lots of item 1, 1 lot of item 2, 2 lots of item 4 and 1 lot of item 5
+>add the proper gaps and spacing (probably going to be its own session cause it'll be so tedious)
