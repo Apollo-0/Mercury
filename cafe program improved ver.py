@@ -119,12 +119,15 @@ while True:
         
         time.sleep(1)
         while True:
-            print("""
-            1) Turkey Sandwiches
-            2) French Fries
-            3) Crossaint
-            4) Fruit Salad
-            B) BACK""")
+            print("1) Turkey Sandwiches")
+            time.sleep(1)
+            print("2) French Fries")
+            time.sleep(1)
+            print("3) Crossaint")
+            time.sleep(1)
+            print("4) Fruit Salad")
+            time.sleep(1)
+            print("B) BACK")
             print()
 
             sopt = input("Your Snack Option is: ")
@@ -142,7 +145,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
     
             if sopt == '2':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -154,7 +156,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
 
             if sopt == '3':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -166,7 +167,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
     
             if sopt == '4':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -178,7 +178,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
             
 
             if sopt == 'B':
@@ -284,10 +283,6 @@ while True:
             bopt = input("Your Drink Option is: ")
             time.sleep(1)
             print()
-
-
-            #Putting bopt instead of dopt because then we'd have two and it would get mixed up with drink and desert
-            #The b in bopt just stands for beverage instead
 
             print()
             time.sleep(1)
