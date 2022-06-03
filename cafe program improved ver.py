@@ -195,12 +195,15 @@ while True:
 
         time.sleep(1)
         while True:
-            print("""
-            1) Ice Cream
-            2) Caramel Cake
-            3) Chocolate Brownie
-            4) Strawberry Donut
-            B) BACK""")
+            print("1) Ice Cream")
+            time.sleep(1)
+            print("2) Caramel Cake")
+            time.sleep(1)
+            print("3) Chocolate Brownie")
+            time.sleep(1)
+            print("4) Strawberry Donut")
+            time.sleep(1)
+            print("B) BACK")
             print()
 
             dopt = input("Your Desert Option is: ")
@@ -218,7 +221,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
         
             if dopt == '2':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -230,7 +232,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
 
             if dopt == '3':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -241,7 +242,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
         
             if dopt == '4':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -253,7 +253,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
             
             if dopt == 'B':
                 print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
@@ -271,13 +270,12 @@ while True:
 
         time.sleep(1)
         while True:
-            print("""
-            1) Milkshake
-            2) Smoothie
-            3) Hot Chocolate
-            4) Ice Tea
-            5) Soda
-            B) BACK""")
+            print("1) Milkshake")
+            print("2) Smoothie")
+            print("3) Hot Chocolate")
+            print("4) Ice Tea")
+            print("5) Soda")
+            print("B) BACK")
             print()
 
             bopt = input("Your Drink Option is: ")
@@ -296,7 +294,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
         
             if bopt == '2':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -308,7 +305,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
 
             if bopt == '3':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -320,7 +316,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
         
             if bopt == '4':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -332,7 +327,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
         
             if bopt == '5':
                 print("+++++++++++++++++++++++++++++++++++++++++")
@@ -344,7 +338,6 @@ while True:
                 print("+++++++++++++++++++++++++++++++++++++++++")
                 print()
                 print("**************************************************")
-                break
             
             if bopt == 'B':
                 print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
