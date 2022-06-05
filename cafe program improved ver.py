@@ -362,6 +362,8 @@ while True:
             print(item)
         time.sleep(1)
         print()
+        cost = round(cost, 2)
+        print(cost)
         print("Your current cost is: £" ,cost, " ")
 
 
@@ -377,6 +379,8 @@ while True:
                 print(item)
             time.sleep(1)
             print()
+            cost = round(cost, 2)
+            print(count)
             print("Your total amount is: £" ,cost, " ")
             print()
             time.sleep(2)
