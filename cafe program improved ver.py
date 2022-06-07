@@ -380,7 +380,7 @@ while True:
             time.sleep(1)
             print()
             cost = round(cost, 2)
-            print(count)
+            print()
             print("Your total amount is: £" ,cost, " ")
             print()
             time.sleep(2)
